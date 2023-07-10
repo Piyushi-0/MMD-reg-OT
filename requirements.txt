@@ -1,0 +1,11 @@
+cvxpy==1.2.1
+joblib==1.1.0
+matplotlib==3.5.1
+numpy==1.22.4
+POT==0.9.0
+scikit_learn==1.1.1
+scipy==1.7.3
+setuptools==61.2.0
+# NOTE: please install the torch, torchvision packages via `conda install pytorch==1.13.1 torchvision==0.14.1 pytorch-cuda=11.6 -c pytorch -c nvidia`
+# torch==1.13.1
+# torchvision==0.14.1
