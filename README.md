@@ -9,4 +9,4 @@
 ### [More Examples](./examples)
 
 
-###### If you use the code, consider giving a start to this repository.
+###### If you use the code, consider giving a star to this repository.
