@@ -89,11 +89,9 @@ def solve_apgd(C, G, v, max_itr, lda, rho={1: 0.5, 2: 0.5}, crit=None, tol=1e-3,
         if not itr:
             x_i = {1: torch.clamp(y[1]-ss[1]*grd1, min=0) if case == "unb" else proj_simplex(y[1]-ss[1]*grd1),
                    2: torch.clamp(y[2]-ss[2]*grd2, min=0) if case == "unb" else proj_simplex(y[2]-ss[2]*grd2)}
-        else:
-            if opt1 == max_itr:
-                x_i[1] = torch.clamp(y[1]-ss[1]*grd1, min=0) if case == "unb" else proj_simplex(y[1]-ss[1]*grd1)
-            if opt2 == max_itr:
-                x_i[2] = torch.clamp(y[2]-ss[2]*grd2, min=0) if case == "unb" else proj_simplex(y[2]-ss[2]*grd2)
+        elif opt1 == max_itr or opt2 == max_itr:
+            x_i[1] = torch.clamp(y[1]-ss[1]*grd1, min=0) if case == "unb" else proj_simplex(y[1]-ss[1]*grd1)
+            x_i[2] = torch.clamp(y[2]-ss[2]*grd2, min=0) if case == "unb" else proj_simplex(y[2]-ss[2]*grd2)
         
         obj_itr.append(get_obj(C, G, lda, v, x_i, rho))
         # check for convergence
@@ -111,11 +109,8 @@ def solve_apgd(C, G, v, max_itr, lda, rho={1: 0.5, 2: 0.5}, crit=None, tol=1e-3,
              2: x_i[2] + (t-1)*(x_i[2]-x_old[2])/t_new}
         x_old = {1: x_i[1].clone(), 2: x_i[2].clone()}
         t = t_new
-    if verbose:
-        if opt1 < max_itr:
-            print(f"Convergence for alpha1 in {opt1+1} iterations.")
-        if opt2 < max_itr:
-            print(f"Convergence for alpha2 in {opt2+1} iterations.")
+    if verbose and (opt1 < max_itr and opt2 < max_itr):
+        print(f"Converged early.")
     obj_final = obj_itr[-1] if crit == "obj" else get_obj(C, G, lda, v, x_i, rho)
     assert obj_final < obj_init, "No optimization! Obj_final={} Obj_initial={}".format(obj_final, obj_init)
     
