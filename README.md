@@ -1,4 +1,4 @@
-# Code for [MMD-regularized Unbalanced Optimal Transport](https://arxiv.org/pdf/2011.05001.pdf)
+# Code for our work [MMD-regularized Unbalanced Optimal Transport](https://arxiv.org/pdf/2011.05001.pdf)
 ### Algorithms
   - [Code for solving MMD-OT using Accelerated PGD.](./ot_mmd/mmdot.py)
       - [Code for computing a batch of MMD-OT problems parallelly.](./ot_mmd/b_mmdot.py)
@@ -9,4 +9,6 @@
 ### [More Examples](./examples)
 
 
-###### If you use the code, consider giving a star to this repository.
+#### If you use the code, consider giving a star to this repository & citing our work.
+
+
