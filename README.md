@@ -1,4 +1,6 @@
 # Code for our work [MMD-regularized Unbalanced Optimal Transport](https://arxiv.org/pdf/2011.05001.pdf)
+You may install our ot_mmd package by cloning the repository and running `pip install .`
+
 ### Algorithms
   - [Code for solving MMD-OT using Accelerated PGD.](./ot_mmd/mmdot.py)
       - [Code for computing a batch of MMD-OT problems parallelly.](./ot_mmd/b_mmdot.py)
