@@ -1,0 +1,8 @@
+@misc{manupriya2023mmdregularized,
+      title={MMD-regularized Unbalanced Optimal Transport}, 
+      author={Piyushi Manupriya and J. Saketha Nath and Pratik Jawanpuria},
+      year={2023},
+      eprint={2011.05001},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
