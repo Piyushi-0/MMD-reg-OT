@@ -1,6 +1,7 @@
 ## Code for our work [MMD-Regularized Unbalanced Optimal Transport](https://arxiv.org/pdf/2011.05001.pdf)
-You may first install PyTorch and Torchvision via `conda install pytorch==1.13.1 torchvision==0.14.1 pytorch-cuda=11.6 -c pytorch -c nvidia`.
-The other packages used in this repository can be installed via `pip install -r requirements.txt`. To install our `ot_mmd` package, please clone this repository and run `pip install .`
+- You may first install PyTorch and Torchvision via `conda install pytorch==1.13.1 torchvision==0.14.1 pytorch-cuda=11.6 -c pytorch -c nvidia`.
+- The other packages used in this repository can be installed via `pip install -r requirements.txt`.
+- To install our `ot_mmd` package, please clone this repository and run `pip install .`
 
 ### Algorithms
   - [Code for solving MMD-OT using Accelerated PGD.](./ot_mmd/mmdot.py)
