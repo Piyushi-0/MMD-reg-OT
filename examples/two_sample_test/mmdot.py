@@ -237,7 +237,7 @@ for kk in range(opt.start_trial, opt.end_trial):
     S = torch.cat([s1, s2], dim=0)  # NOTE: removed .cpu()
     S_v = S.view(2*N1, -1)
 
-    best_hp = {"lda": 1, "ohp": -1}  # validate(S_v, list_lda, list_ohp)
+    best_hp = get_hp(kk, "mmdot") # validate(S_v, list_lda, list_ohp)
 
     np.random.seed(seed1)
     for k in range(N):  # NOTE: changed their seed
