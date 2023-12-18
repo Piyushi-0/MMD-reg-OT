@@ -13,6 +13,6 @@
 ### [More Examples](./examples)
 
 
-**If you find the code useful, consider giving a star to this repository & [citing our work](https://github.com/Piyushi-0/MMD-reg-OT/blob/main/CITATION.cff).**
+**If you find the code useful, consider giving a star to this repository & [citing our work](https://github.com/Piyushi-0/MMD-reg-OT/blob/main/bibtex.txt).**
 
 
