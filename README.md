@@ -1,4 +1,4 @@
-## Code for our [TMLR](https://jmlr.org/tmlr/) paper: [MMD-Regularized Unbalanced Optimal Transport](https://arxiv.org/pdf/2011.05001.pdf)
+## Code for our [TMLR](https://jmlr.org/tmlr/) Journal: [MMD-Regularized Unbalanced Optimal Transport](https://arxiv.org/pdf/2011.05001.pdf)
 - You may first install PyTorch and Torchvision via `conda install pytorch==1.13.1 torchvision==0.14.1 pytorch-cuda=11.6 -c pytorch -c nvidia`.
 - The other packages used in this repository can be installed via `pip install -r requirements.txt`.
 - To install our `ot_mmd` package, please clone this repository and run `pip install .`
@@ -12,6 +12,7 @@
   - [Barycenter between Gaussians.](./examples/synthetic/barycenter_with_imq.ipynb)
 ### [More Examples](./examples)
 
+[**Video Presentation**](https://youtu.be/FSJ4_GfLhHo)
 
 **If you find the code useful, consider giving a star to this repository & [citing our work](https://github.com/Piyushi-0/MMD-reg-OT/blob/main/bibtex.txt).**
 
