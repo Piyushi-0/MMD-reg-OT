@@ -1,8 +1,10 @@
 @article{
 manupriya2024mmdregularized,
-title={MMD-regularized Unbalanced Optimal Transport},
-author={Piyushi Manupriya and J. Saketha Nath and Pratik Jawanpuria},
+title={{MMD}-Regularized Unbalanced Optimal Transport},
+author={Piyushi Manupriya and SakethaNath Jagarlapudi and Pratik Jawanpuria},
 journal={Transactions on Machine Learning Research},
+issn={2835-8856},
 year={2024},
 url={https://openreview.net/forum?id=eN9CjU3h1b},
+note={}
 }
