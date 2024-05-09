@@ -12,8 +12,6 @@
   - [Barycenter between Gaussians.](./examples/synthetic/barycenter_with_imq.ipynb)
 ### [More Examples](./examples)
 
-[**Video Presentation**](https://youtu.be/FSJ4_GfLhHo)
+[*Video Presentation*](https://youtu.be/FSJ4_GfLhHo)
 
-**If you find the code useful, consider giving a star to this repository & [citing our work](https://github.com/Piyushi-0/MMD-reg-OT/blob/main/bibtex.txt).**
-
-
+*If you find this useful, consider giving a* ⭐ *to this repository & [citing our work](https://github.com/Piyushi-0/MMD-reg-OT/blob/main/bibtex.txt).*
