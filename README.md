@@ -14,4 +14,4 @@
 
 [*Video Presentation*](https://youtu.be/FSJ4_GfLhHo)
 
-*If you find this useful, consider giving a* ⭐ *to this repository & [citing our work](https://github.com/Piyushi-0/MMD-reg-OT/blob/main/bibtex.txt).*
+*If you find this useful, consider giving a* ⭐ *to this repository & [citing our work](https://github.com/Piyushi-0/MMD-reg-OT/blob/main/CITATION.cff) and [my PhD thesis](https://hal.science/tel-05010415/).*
